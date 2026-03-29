@@ -16,17 +16,18 @@ export default function Home() {
 
 
       <div className="absolute inset-0 z-0">
-       <DotGrid
-    dotSize={6}
-    gap={15}
-    baseColor="#02071c"
-    activeColor="#00ffbf"
-    proximity={80}
-    shockRadius={180}
-    shockStrength={5}
-    resistance={750}
-    returnDuration={0.3}
-  />
+      <DotGrid
+  dotSize={6}
+  gap={15}
+  baseColor="#02071c"
+  activeColor="#00ffbf"
+  proximity={80}
+  shockRadius={180}
+  shockStrength={5}
+  resistance={750}
+  returnDuration={0.3}
+  style={{ width: "100%", height: "100%" }} // 👈 AQUI
+/>
       </div>
 
 

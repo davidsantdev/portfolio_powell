@@ -125,6 +125,6 @@
     @apply bg-[#02071C] text-foreground font-[inter];
   }
   html {
-    @apply font-sans bg-[#02071C];
+    @apply font-[inter] bg-[#02071C];
   }
 }

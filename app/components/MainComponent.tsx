@@ -4,7 +4,7 @@ import StarBorder from '../../components/StarBorder'
 
 export default function Main() {
   return(
-    <div className="flex items-center justify-center md:mt-[10%] mt-50  ">
+    <div className="flex items-center justify-center md:mt-[10%] mt-50  " id="Sobre">
 
      
 

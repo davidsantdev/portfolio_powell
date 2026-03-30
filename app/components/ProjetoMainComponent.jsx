@@ -5,10 +5,10 @@ import Image from "next/image";
 
 export default function ProjetoMain(){
     return(
-        <div className=" md:pt-70 mt-40  flex justify-center">
+        <div className=" md:pt-70 mt-40  flex justify-center " >
 
             
-                  <div className="absolute inset-0 h-300 z-0 bg-[#02071C]">
+                  <div className="absolute inset-0 h-300 z-0 bg-[#02071C] ">
                    <DotGrid
                 dotSize={6}
                 gap={15}
@@ -22,16 +22,16 @@ export default function ProjetoMain(){
               />
                   </div>
 
-                  <div className=" w-[70%]">
+                  <div className=" w-[70%] " id='Projeto'>
 
-                  <div className='relative text-[20px] text-white z-[2000] md:flex '>
-                    <div className='w-200 '>
+                  <div className='relative text-[20px] text-white z-[2000] md:flex  flex-wrap'>
+                    <div className=' '>
                     <div>
-                      <h1 className="text-[#f3f6ff]  md:text-[180px] text-[70px] font-bold leading-20">
+                      <h1 className="text-[#f3f6ff]  md:text-[120px] text-[70px] font-bold leading-20">
                          Meu</h1>
-                          <h1 className="text-[#f3f6ff]  md:text-[180px] text-[70px] font-bold ">
+                          <h1 className="text-[#f3f6ff]  md:text-[120px] text-[70px] font-bold ">
                          Projeto</h1>
-                          <h1 className="text-[#f3f6ff]  md:text-[180px] text-[70px] font-bold leading-20 ">
+                          <h1 className="text-[#f3f6ff]  md:text-[120px] text-[70px] font-bold leading-20 ">
                          Principal</h1>
 
                          </div>
@@ -53,15 +53,30 @@ export default function ProjetoMain(){
 
                            <div className='mt-7 flex md:gap-5 gap-2'>
 
-                             <button className=' border-2 border-[#64FFDA] p-5 rounded-[10px]'>
-                            Veja meu projeto 
+                             <a href="https://alopara.vercel.app/">
+                            <button className=' border-2 border-[#64FFDA] p-5 rounded-[10px] transition-all duration-300 ease-in-out hover:bg-[#64FFDA] hover:text-black'>
+                            Veja o site ao vivo
                             
                            </button>
 
-                             <button className=' border-2 border-[#64FFDA] p-5 rounded-[10px]'>
+
+                           </a>
+
+                       
+                             
+
+
+
+                           <a href="https://github.com/davidsantdev/Site_Institucional_alopara">
+                            <button className=' border-2 border-[#64FFDA] p-5 rounded-[10px] transition-all duration-300 ease-in-out hover:bg-[#64FFDA] hover:text-black'>
                             Veja meu código 
                             
                            </button>
+
+
+                           </a>
+
+                             
 
                            </div>
 
@@ -71,7 +86,7 @@ export default function ProjetoMain(){
                     </div>
 
                     <div>
-                        <Image className='w-100' src={celular} alt="Celular" />
+                        <Image className='md:w-100' src={celular} alt="Celular" />
                     </div>
 
 
